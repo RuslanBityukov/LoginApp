@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		AB65433427286C1E005A24EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB65433327286C1E005A24EF /* AppDelegate.swift */; };
 		AB65433627286C1E005A24EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB65433527286C1E005A24EF /* SceneDelegate.swift */; };
-		AB65433827286C1E005A24EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB65433727286C1E005A24EF /* ViewController.swift */; };
+		AB65433827286C1E005A24EF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB65433727286C1E005A24EF /* LoginViewController.swift */; };
 		AB65433B27286C1E005A24EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB65433927286C1E005A24EF /* Main.storyboard */; };
 		AB65433D27286C20005A24EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB65433C27286C20005A24EF /* Assets.xcassets */; };
 		AB65434027286C20005A24EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB65433E27286C20005A24EF /* LaunchScreen.storyboard */; };
+		AB65434827286F37005A24EF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB65434727286F37005A24EF /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB65433027286C1E005A24EF /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB65433327286C1E005A24EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB65433527286C1E005A24EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB65433727286C1E005A24EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB65433727286C1E005A24EF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AB65433A27286C1E005A24EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB65433C27286C20005A24EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB65433F27286C20005A24EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB65434127286C20005A24EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB65434727286F37005A24EF /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				AB65433327286C1E005A24EF /* AppDelegate.swift */,
 				AB65433527286C1E005A24EF /* SceneDelegate.swift */,
-				AB65433727286C1E005A24EF /* ViewController.swift */,
+				AB65433727286C1E005A24EF /* LoginViewController.swift */,
+				AB65434727286F37005A24EF /* WelcomeViewController.swift */,
 				AB65433927286C1E005A24EF /* Main.storyboard */,
 				AB65433C27286C20005A24EF /* Assets.xcassets */,
 				AB65433E27286C20005A24EF /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB65433827286C1E005A24EF /* ViewController.swift in Sources */,
+				AB65433827286C1E005A24EF /* LoginViewController.swift in Sources */,
 				AB65433427286C1E005A24EF /* AppDelegate.swift in Sources */,
 				AB65433627286C1E005A24EF /* SceneDelegate.swift in Sources */,
+				AB65434827286F37005A24EF /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
