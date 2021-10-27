@@ -36,7 +36,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func unwind(for segue: UIStoryboardSegue) {
-        guard let _ = segue.source as? WelcomeViewController else { return }
         passwordTextField.text = ""
     }
 }
